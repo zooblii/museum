@@ -26,9 +26,10 @@
   }
   
   .logo {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+    width: 199px;
+    height: 33px;
+    position: relative;
+    top: 59;
   }
   
   .main-nav ul {
