@@ -8,7 +8,7 @@
   body {
     font-family: sans-serif;
     background-color: #fff;
-    color: #03030300;
+    color: #030303;
     scroll-behavior: smooth;
   }
   header {
@@ -86,5 +86,36 @@
     border: 1px solid #ccc;
   }
   
+  h2 {
+    font-family: 'Forum', serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  .Visiting h2{
+    color: #9D8665;
+  }
+
+.Explore h2{
+  color: #FFFFFF;
+}
+
+.Video h2{
+  color: #9D8665;
+}
+
+.Gallery h2{
+  color: #FFFFFF;
+}
+
+.Tickets h2{
+  color: #9D8665;
+}
+
+.Contacts h2{
+  color: #9D8665;
+}
 
   
