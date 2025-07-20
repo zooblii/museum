@@ -6,10 +6,10 @@
   }
   
   body {
-    font-family: sans-serif;
     background-color: #fff;
     color: #030303;
     scroll-behavior: smooth;
+    font-family: 'Forum', serif;
   }
   header {
     background-color: #030303; 
@@ -116,6 +116,94 @@
 
 .Contacts h2 {
   color: #9D8665;
+}
+
+footer {
+  background-color: #030303;
+  color: white;
+  padding: 40px;
+  font-family: 'Forum', serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #555;
+}
+
+.footer-left img {
+  width: 200px;
+  height: auto;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-contact {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.footer-contact a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-links img {
+  width: 100%;
+  height: auto;
+}
+
+.social-links a:hover {
+  background-color: #d7b686;
+  border-color: #d7b686;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 20px auto 0;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
 }
 
   
