@@ -290,3 +290,12 @@ footer {
   font-weight: 200;
   color: #000;
 }
+.welcome {
+  background-image: url('images/welcome-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Forum', serif;
+}
