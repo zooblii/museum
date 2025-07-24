@@ -1,0 +1,41 @@
+.video-content {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.video-title-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video h2 {
+  font-family: "Forum", serif;
+  font-size: 80px;
+  margin-bottom: 35px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  color: #9d8665;
+}
+
+.video p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  margin-bottom: 75px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  width: 780px;
+  line-height: 38.5px;
+}
+
+.grid-video-block {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 42px;
+  margin-top: 40px;
+
+}
+
+.grid-video-block img {
+  width: 452px;
+  height: auto;
+}

@@ -145,7 +145,7 @@ footer {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px 40px;
+  gap: 75px 40px;
   padding: 0;
   margin: 0;
 }
@@ -227,37 +227,57 @@ footer {
   width: 24px;
   height: 24px;
 }
+
+.welcome {
+  background-image: url('images/welcome-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Forum', serif;
+}
+
 .visiting {
   padding: 80px 40px;
   background-color: #fff;
 }
 
-.visiting h2 {
+.visiting-content{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.visiting h3 {
   font-family: 'Forum', serif;
   font-size: 80px;
   letter-spacing: 5px;
-  text-align: center;
   color: #9D8665;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+
 }
 
 .visiting-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 60px 40px;
   justify-items: center;
 }
 
 .visiting-card {
   text-align: center;
-  max-width: 252px;
+  /* max-width: 252px; */
+  width: 440px;
+  height: 424px;
+  text-align: left;
 }
 
 .visiting-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px;
+  width: 440px;
+  height: 285px;
+  /* display: block; */
+  /* margin: 0 auto 20px; */
 }
 
 .visiting-card h3 {
@@ -269,11 +289,14 @@ footer {
   margin-bottom: 10px;
 }
 
-.underline {
-  width: 150px;
+.visiting-card-underline {
+  width: 300px;
   height: 2px;
   background-color: #710707;
-  margin: 0 auto 16px;
+}
+
+.visiting-link {
+  text-decoration: none;
 }
 
 .visiting-card .tour {
@@ -281,7 +304,8 @@ footer {
   font-size: 20px;
   font-weight: 200;
   color: #000;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .visiting-card .source {
@@ -290,12 +314,10 @@ footer {
   font-weight: 200;
   color: #000;
 }
-.welcome {
-  background-image: url('images/welcome-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 20px;
-  text-align: center;
-  color: white;
-  font-family: 'Forum', serif;
+.visiting-h2-underline{
+  width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  margin-top: 25px;
+  margin-bottom: 75px;
 }

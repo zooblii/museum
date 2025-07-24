@@ -1,0 +1,84 @@
+
+.visiting {
+  padding: 80px 40px;
+  background-color: #fff;
+}
+
+.visiting-content{
+  max-width: 1440px;
+  margin: auto;
+}
+
+.visiting h3 {
+  font-family: 'Forum', serif;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #9D8665;
+  margin-bottom: 10px;
+  margin-top: 25px;
+
+}
+
+.visiting-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 75px 60px;
+  justify-items: center;
+}
+
+.visiting-card {
+  text-align: center;
+  /* max-width: 252px; */
+  width: 440px;
+  height: 424px;
+  text-align: left;
+}
+
+.visiting-card img {
+  width: 440px;
+  height: 285px;
+  /* display: block; */
+  /* margin: 0 auto 20px; */
+}
+
+.visiting-card h3 {
+  font-family: 'Forum', serif;
+  font-size: 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.visiting-card-underline {
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+}
+
+.visiting-link {
+  text-decoration: none;
+}
+
+.visiting-card .tour {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.visiting-card .source {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #000;
+}
+.visiting-h2-underline{
+  width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
