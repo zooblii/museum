@@ -1,0 +1,15 @@
+.Tickets h2::after {
+  content: '';
+  display: block;
+  width: 1440px; 
+  height: 3px;
+  background-color: #710707;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.tickets-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}

@@ -83,3 +83,22 @@
   margin-bottom: 75px;
 }
 
+.visiting h2::after {
+  content: '';
+  display: block;
+  width: 1440px; 
+  height: 3px;
+  background-color: #710707;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.visiting h3::after {
+  content: '';
+  display: block;
+  width: 300px; 
+  height: 2px;
+  background-color: #710707;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
