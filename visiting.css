@@ -28,7 +28,7 @@
 
 .visiting-card {
   text-align: center;
-  /* max-width: 252px; */
+ 
   width: 440px;
   height: 424px;
   text-align: left;
@@ -37,8 +37,7 @@
 .visiting-card img {
   width: 440px;
   height: 285px;
-  /* display: block; */
-  /* margin: 0 auto 20px; */
+
 }
 
 .visiting-card h3 {
@@ -50,11 +49,19 @@
   margin-bottom: 10px;
 }
 
-.visiting-card-underline {
-  width: 300px;
-  height: 2px;
+.visiting-underline {
+  width: 300px;  
+  height: 3px;
   background-color: #710707;
+  margin-top: 10px;
+  transition: width 0.3s ease;
 }
+
+.visiting-link:hover .visiting-underline {
+  width: 440px;
+}
+
+
 
 .visiting-link {
   text-decoration: none;
@@ -91,14 +98,4 @@
   background-color: #710707;
   margin-top: 25px;
   margin-bottom: 75px;
-}
-
-.visiting h3::after {
-  content: '';
-  display: block;
-  width: 300px; 
-  height: 2px;
-  background-color: #710707;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
