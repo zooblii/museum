@@ -182,52 +182,59 @@
    
    
   
-   <section class="tickets" id="tickets">
+<section class="tickets" id="tickets">
   <div class="tickets-container">
     <h2>Buy Tickets</h2>
     <div class="tickets-content">
       <div class="tickets-image">
         <img src="images/tickets/tickets_pic.png" alt="painting">
       </div>
+
       <form>
-  <div class="form-columns">
-    <div class="radio">
-      <h3>Ticket Type</h3>
-      <label><input type="radio" name="type" checked> Permanent exhibition</label>
-      <label><input type="radio" name="type"> Temporary exhibition</label>
-      <label><input type="radio" name="type"> Combined Admission</label>
-    </div>
+        <div class="tickets-form">
+          <div class="form-left">
+            <h3>Ticket Type</h3>
+            <label><input type="radio" name="type" checked> Permanent exhibition</label>
+            <label><input type="radio" name="type"> Temporary exhibition</label>
+            <label><input type="radio" name="type"> Combined Admission</label>
+          </div>
 
-    <div class="amount-block">
-      <div class="amount-row">
-        <span>Basic 18+</span>
-        <div class="counter">
-          <button type="button">-</button>
-          <span>1</span>
-          <button type="button">+</button>
-        </div>
-      </div>
+<div class="form-right">
+  <h3>Amount</h3>
 
-      <div class="amount-row">
-        <span>Senior 65+</span>
-        <div class="counter">
-          <button type="button">-</button>
-          <span>1</span>
-          <button type="button">+</button>
-        </div>
-      </div>
-
-      <div class="total">
-        <span>Total €220</span>
-        <button class="buy-button">Buy Now</button>
-      </div>  
+  <div class="amount-group">
+    <span class="amount-label">Basic 18+</span>
+    <div class="counter">
+      <button type="button">-</button>
+      <span>1</span>
+      <button type="button">+</button>
     </div>
   </div>
-</form>
-      </div>
+
+  <div class="amount-group">
+    <span class="amount-label">Senior 65+</span>
+    <div class="counter">
+      <button type="button">-</button>
+      <span>1</span>
+      <button type="button">+</button>
+    </div>
+  </div>
+
+  <div class="total-row">
+    <span>Total €220</span>
+  </div>
+
+  <button class="buy-button">Buy Now</button>
+</div>
+        </div>
+      </form>
     </div>
   </div>
 </section>
+
+<div class="parallax"></div>
+
+
 
     
   <section class="contacts" id="contacts">

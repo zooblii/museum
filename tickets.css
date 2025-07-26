@@ -22,44 +22,64 @@
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  display: flex;
 }
 
 .tickets-image img {
   width: 720px;
   height: 550px;
-  margin-top: 75px;
-  margin-bottom: 75px;
-
+  margin: 75px 0;
+  object-fit: cover;
 }
 
 .tickets-form {
-  flex: 1;
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.form-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.form-left,
+.form-right {
+  min-width: 270px;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-left {
+  align-items: flex-start;
+}
+
+.form-right {
+  align-items: flex-end;
+  gap: 20px;
+  text-align: right;
 }
 
 .tickets-form h3 {
   font-size: 28px;
   margin-bottom: 20px;
-  margin-bottom: 50px;
 }
 
 .tickets-form label {
   display: block;
   margin-bottom: 10px;
   font-size: 18px;
-}
-
-.amount-block {
-  margin-top: 30px;
-  margin-left: auto;
-
+  cursor: pointer;
 }
 
 .amount-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  width: 100%;
 }
 
 .counter {
@@ -77,11 +97,14 @@
   cursor: pointer;
 }
 
-.total {
-  margin-top: 30px;
+.total-row {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: right;
 }
 
 .buy-button {
@@ -91,32 +114,34 @@
   border: none;
   cursor: pointer;
   font-weight: bold;
+  align-self: flex-end;
+}
+.form-right {
+  align-items: flex-end;
+  gap: 20px;
+  text-align: right;
 }
 
-.radio{
-  width: 270px;
-  height: 211px;
-  margin-top: 193;
-  margin-left: 60px;
-  margin-bottom: 339px;
-}
-.form-columns {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-}
-
-.radio, .amount-block {
+.amount-group {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
 }
 
-.radio {
-  max-width: 270px;
+.amount-label {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.amount-block {
-  max-width: 270px;
-  align-items: flex-end; /* Выравниваем всё справа */
+
+.parallax {
+  background-image: url('images/parallax.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 }
+
