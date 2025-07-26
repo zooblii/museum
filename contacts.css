@@ -1,13 +1,17 @@
 .contacts {
 width: 100%;
   background-color: #fff;
-
+  color: rgb(0, 0, 0);
+  text-align: left;
 }
 
 .contacts-content {
   max-width: 1440px;
+  height: 810px;
   margin: 0 auto;
+  position: relative;   
 }
+
 
 .contacts h2 {
   font-size: 80px;
@@ -19,8 +23,10 @@ width: 100%;
 
 .text_contacts {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  width: 227px;
+  height: 66;
+  margin-bottom: 50px;
   color: #000;
 }
 .contacts h2::after {
@@ -31,4 +37,29 @@ width: 100%;
   background-color: #710707;
   margin-top: 25px;
   margin-bottom: 75px;
+}
+
+.contacts-box {
+   display: flex;
+  justify-content: space-between;
+}
+
+.contacts-text {
+  max-width: 600px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+
+
+.contacts-map {
+  width: 960px;
+  height: auto; 
+  margin: 0;    
+  position: static; 
+}
+
+.three-contacts{
+  font-size: 22px;
+  margin-bottom: 25px;
 }
