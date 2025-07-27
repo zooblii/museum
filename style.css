@@ -49,12 +49,7 @@
     font-size: 16px;
     font-weight: 400;
   }
-  .welcome {
-    background-color: #000;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-  }
+
   
   .welcome h1 {
     font-size: 48px;
@@ -160,17 +155,6 @@ footer {
   font-size: 16px;
 }
 
-.footer-contact {
-  margin-top: 20px;
-  width: 100%;
-  text-align: left;
-}
-
-.footer-contact a {
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-}
 
 .social-links {
   display: flex;
@@ -181,24 +165,23 @@ footer {
 }
 
 .social-links a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
-  padding: 8px;
   border: 1px solid white;
   border-radius: 50%;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none;
+  padding: 0; 
 }
 
 .social-links img {
-  width: 100%;
-  height: auto;
+  width: 48px; 
+  height: 48px;
 }
 
-.social-links a:hover {
-  background-color: #d7b686;
-  border-color: #d7b686;
-}
 
 .footer-bottom {
   display: flex;
@@ -210,27 +193,13 @@ footer {
   opacity: 0.6;
 }
 
-.social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  border: 1px solid white;
-  border-radius: 50%;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
-}
+
 
 .social-links a:hover {
   background-color: #9D8665;
   border-color: #9D8665;
 }
 
-.social-links img {
-  width: 24px;
-  height: 24px;
-}
 
 .welcome {
   background-image: url('images/welcome-bg.jpg');
@@ -271,7 +240,6 @@ footer {
 
 .visiting-card {
   text-align: center;
-  /* max-width: 252px; */
   width: 440px;
   height: 424px;
   text-align: left;
@@ -280,8 +248,7 @@ footer {
 .visiting-card img {
   width: 440px;
   height: 285px;
-  /* display: block; */
-  /* margin: 0 auto 20px; */
+  
 }
 
 .visiting-card h3 {
